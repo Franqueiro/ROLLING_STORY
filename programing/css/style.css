@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa+One:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa+One:ital@0;1&family=Jacquard+12+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "Changa One", sans-serif;
+    margin-bottom: 0%;
+    font-weight: bold;
+    animation: colorChange 20s infinite
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    15% {
+        color: orange;
+    }
+    23% {
+        color: yellow;
+    }
+    30% {
+        color: green;
+    }
+    38% {
+        color: blue;
+    }
+    46% {
+        color: indigo;
+    }
+    53% {
+        color: violet;
+    }
+    61% {
+        color: indigo;
+    }
+    69% {
+        color: blue;
+    }
+    77% {
+        color: green;
+    }
+    84% {
+        color: yellow;
+    }
+    92% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+
+h2 {
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 6%;
+}
+
+p {
+    font-family: "Chakra Petch", sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.mid {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+button {
+    margin-top: 1%;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+#LIFE:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+#RACING:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#PRINCES:hover {
+    background-color: rgba(255, 0, 242, 0.5);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
