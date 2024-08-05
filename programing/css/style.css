@@ -109,3 +109,8 @@ button:hover {
 .passo.ativo {
     display: block;
 }
+
+img {
+    margin-top: -20px;
+    margin-bottom: 15px;
+}

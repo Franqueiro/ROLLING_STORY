@@ -9,17 +9,19 @@
 </head>
 <body>
     <div class="passo ativo" id="passo-0">    
-        <h1>ROLLING STORY</h1>
-        <h2>Created by <a href="https://github.com/FelipeRobinson">FELIPE</a></h2>
-        <p>Seja bem vindo ao rolling story, aqui o que vale são suas escolhas!</p>
-        <p class="mid">
-            Esse não é nada mais nada menos que um jogo de escolhas, onde você se vê diante de uma situação, e sua sorte e seu 
-            poder de escolha, te diz se você será vitorioso, feliz ou perdedor e triste.
-        </p>
-        <p>Se divirta!</p>
-        <button class="btn-proximo" id="LIFE" data-proximo="1" alt="LIFE">LIFE GAME</button>
-        <button class="btn-proximo" id="RACING" data-proximo="2" alt="RACING">RACING GAME</button>
-        <button class="btn-proximo" id="PRINCES" data-proximo="3" alt="PRINCES">PRINCES GAME</button>
+        <div id="beggin">
+            <h1>ROLLING STORY</h1>
+            <h2>Created by <a href="https://github.com/FelipeRobinson">FELIPE</a></h2>
+            <p>Seja bem vindo ao rolling story, aqui o que vale são suas escolhas!</p>
+            <p class="mid">
+                Esse não é nada mais nada menos que um jogo de escolhas, onde você se vê diante de uma situação, e sua sorte e seu 
+                poder de escolha, te diz se você será vitorioso, feliz ou perdedor e triste.
+            </p>
+            <p>Se divirta!</p>
+            <button class="btn-proximo" id="LIFE" data-proximo="1" alt="LIFE">LIFE GAME</button>
+            <button class="btn-proximo" id="RACING" data-proximo="2" alt="RACING">RACING GAME</button>
+            <button class="btn-proximo" id="PRINCES" data-proximo="3" alt="PRINCES">PRINCES GAME</button>
+        </div>
     </div>
     <section class="LIFE-GAME">
         <div class="passo" id="passo-1">
@@ -37,7 +39,8 @@
             <div class="passo" id="passo-7">
                 <p>Você infelizmente não passou no vestibular, e decepcionou todos, porém você ainda tem uma saida...</p>
                 <p>Você escolhe:</p>
-                <button class="btn-proximo" data-proximo=""></button>
+                <button class="btn-proximo" data-proximo="6">PROCURAR UM EMPREGO</button>
+                <button class="btn-proximo" data-proximo="">DESISTIR</button>
             </div>
             <div class="passo" id="passo-8">
                 <p>Você conseguiu passar no vestibular! Você passou naquela área que você e seus pais sempre sonharam...</p>
@@ -49,7 +52,12 @@
     </section>
     <section class="RACING-GAME">
         <div class="passo" id="passo-2">
-
+            <img width="900px" src="./img/corrida_in_desert.jpeg">
+            <p>"Salve Dom, como você tá? Esse fim de semana é a corrida no deserto não?! Espero te ver lá. Nos ultimos tempos eu tenho te visto bem pra baixo, aconteceu algo?"</p>
+            <p class="mid">Você sabe que se mentir para ele, ele vai descobrir, porém são problemas que você não pode resolver sozinho...</p>
+            <p>Você escolhe:</p>
+            <button class="btn-proximo" data-proximo="">CONTAR O QUE TE INCOMODA</button>
+            <button class="btn-proximo" data-proximo="">"ESTÁ TUDO BEM"</button>
         </div>
     </section>
     <section class="PRINCES-GAME">
