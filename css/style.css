@@ -61,13 +61,32 @@ h1 {
 
 h2 {
     font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 6%;
 }
 
 p {
     font-family: "Chakra Petch", sans-serif;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+/* ICONS */
+.fa-brands {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-xmark {
+    font-size: 20px;
+    color: white;
+    margin-top: -100px;
 }
 
 .mid {
@@ -86,6 +105,8 @@ button {
     border-radius: 2px;
 }
 
+
+/* JOGOS*/
 #LIFE:hover {
     background-color: rgba(0, 128, 0, 0.5);
 }
