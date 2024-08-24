@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="./img/logo.png" type="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="./img/R-removebg-preview.png" type="icon">
     <title>ROLLING STORY</title>
 </head>
 <body>
     <div class="passo ativo" id="passo-0">    
-        <div id="beggin">
+        <div>
             <h1>ROLLING STORY</h1>
             <h2>Created by FELIPE</h2>
             <div class="botoes">
@@ -20,9 +20,9 @@
                 <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
             <p>Seja bem vindo ao rolling story, aqui o que vale são suas escolhas!</p>
-            <p class="mid">
+            <p id="mid-inicio">
                 Esse não é nada mais nada menos que um jogo de escolhas, onde você se vê diante de uma situação, e sua sorte e seu 
-                poder de escolha, te diz se você será vitorioso, feliz ou perdedor e triste.
+                poder de escolha, te dizem se você será vitorioso e feliz ou perdedor e triste.
             </p>
             <p>Se divirta!</p>
             <button class="btn-proximo" id="LIFE" data-proximo="1" alt="LIFE">LIFE GAME</button>
@@ -32,7 +32,7 @@
     </div>
     <section class="LIFE-GAME">
         <div class="passo" id="passo-1">
-            <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-xmark close-button"></i>
             <img width="400px" src="./img/LIFE_GAME.jpg">
             <p>
                 Você é um adolescente, na faixa dos seus 17 para 18 anos, finalizando seu ensino médio, e se sente precionado 
@@ -45,28 +45,31 @@
             <button class="btn-proximo" data-proximo="6">PROCURAR UM EMPREGO</button>
         </div>
         <div class="passo" id="passo-4">
-            <div class="passo" id="passo-7">
-                <p>Você infelizmente não passou no vestibular, e decepcionou todos, porém você ainda tem uma saida...</p>
-                <p>Você escolhe:</p>
-                <button class="btn-proximo" data-proximo="6">PROCURAR UM EMPREGO</button>
-                <button class="btn-proximo" data-proximo="">DESISTIR</button>
-            </div>
-            <div class="passo" id="passo-8">
-                <p>Você conseguiu passar no vestibular! Você passou naquela área que você e seus pais sempre sonharam...</p>
-                <p>Você escolhe:</p>
-                <button class="btn-proximo" data-proximo="11">FAZER INSCRIÇÃO NA FACULDADE</button>
-                <button class="btn-proximo" data-proximo="12">REPENSAR A FACULDADE</button>
-            </div>
+            <i class="fa-solid fa-xmark close-button"></i>
+            <p>Você conseguiu passar no vestibular! Você passou naquela área que você e seus pais sempre sonharam...</p>
+            <p>Você escolhe:</p>
+            <button class="btn-proximo" data-proximo="11">FAZER INSCRIÇÃO</button>
+            <button class="btn-proximo" data-proximo="12">REPENSAR A FACULDADE</button>
         </div>
         <div class="passo" id="passo-5">
+            <i class="fa-solid fa-xmark close-button"></i>
             <p>VOCÊ PERDEU...</p>
             <p>Nessa autura do campeonato jovem?</p>
             <p>Você não pode desistir! Volte e pegue outra chance</p>
             <button class="btn-proximo" data-proximo="0">DESISTIR</button>
         </div>
+        <div class="passo" id="passo-6">
+            <i class="fa-solid fa-xmark close-button"></i>
+            <img width="400px" src="/img/OIP.jpg">
+            <p>
+                Você conseguiu um emprego, porém não é lá aquelas coisas, mas já consegue se sustetar e vai em busca de uma casa/ap. 
+                Porém, você acaba tendo uma péssima briga com sua namorada(o), com quem você ia morar junto, por questões financeiras.</p> 
+            <p>Você escolhe:</p>
+        </div>
     </section>
     <section class="RACING-GAME">
         <div class="passo" id="passo-2">
+            <i class="fa-solid fa-xmark close-button"></i>
             <img width="900px" src="./img/corrida_in_desert.jpeg">
             <p>"Salve Dom, como você tá? Esse fim de semana é a corrida no deserto não?! Espero te ver lá. Nos ultimos tempos eu tenho te visto bem pra baixo, aconteceu algo?"</p>
             <p class="mid">Você sabe que se mentir para ele, ele vai descobrir, porém são problemas que você não pode resolver sozinho...</p>
