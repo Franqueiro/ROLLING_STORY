@@ -65,8 +65,8 @@ h2 {
 
 p {
     font-family: "Chakra Petch", sans-serif;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .close-button {
@@ -105,9 +105,9 @@ p {
     margin-left: 1%;
 }
 
-#mid-inicio {
-    margin-top: -10px;
-    margin-bottom: -10px;
+.mid {
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 button {
